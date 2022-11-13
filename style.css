@@ -1,24 +1,47 @@
 @charset="UTF-8";
 
 html {
-	font size= 100%;
-	
+	font-size: 100%;
 }
 
 body {
-	font-family: 'Gowun Batang', serif;
+	font-family: "나눔고딕", NanumGothic, "맑은고딕" ,MalgunGothic, "Apple SD Gothic Neo", sans-serif;
 	line-height: 1.7;
 	color: #432;
 }
+
 a {
 	text-decoration: none;
 }
-
 img {
-	max-width: 100%;
+	max-width:100%;
 }
 
 .logo {
-	width: 210px;
-	margin-top: 10px;
+	width= 210px; /* 사진(로고)의 너비 조정 */
+	margin-top:14px; /* 상단의 공백을 조절하는 margin 함수 */
+}
+
+.main-nav {
+	display:flex; /* 일렬로 배치*/
+	font-size: 1.25rem;
+	text-transform: uppercase;
+	margin-top: 50px;
+	list-style: none; /* 인덱스 리스트 기호 * 없애기 */
+}
+
+.main-nav li {
+	margin-left :36px; /* li끼리의 공백 조정*/
+}
+.main-nav a {
+	color : #432;
+}
+.main-nav a:hover { /* 텍스트에 마우스 커서를 올렸을 때 '장식'을 지정할 수 있음!
+					ex) 색을 입힘 */
+	color: #0bd;
+}
+
+.page-header {
+	display:flex; /* 수평 정렬 */
+	justify-content: space-between; /* 양쪽 끝에 붙이기 */
 }
