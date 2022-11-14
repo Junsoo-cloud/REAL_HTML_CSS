@@ -17,6 +17,7 @@ img {
 	max-width:100%;
 }
 
+}
 .logo {
 	width= 210px; /* 사진(로고)의 너비 조정 */
 	margin-top:14px;/* 상단의 공백을 조절하는 margin 함수*/
@@ -26,7 +27,7 @@ img {
 	display:flex; /* 일렬로 배치*/
 	font-size: 1.25rem;
 	text-transform: uppercase;
-	margin-top: 50px;
+	margin-top: 34px;
 	list-style: none; /* 인덱스 리스트 기호 * 없애기 */
 }
 
